@@ -59,6 +59,7 @@ Thumbs.db
 *.cache
 *.VC.db
 *.VC.opendb
+*.x64/
 
 # Autres fichiers temporaires
 *.tmp
