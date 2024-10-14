@@ -1,0 +1,69 @@
+# Fichiers de build pour C++
+build/
+*.o          # Fichiers d'objets
+*.obj
+*.exe        # Exécutables Windows
+*.out        # Exécutables Unix
+*.dll        # Bibliothèques dynamiques Windows
+*.so         # Bibliothèques dynamiques Unix/Linux
+*.dylib      # Bibliothèques dynamiques macOS
+*.a          # Bibliothèques statiques Unix/Linux
+*.lib        # Bibliothèques statiques Windows
+
+# Fichiers de compilation et de débogage
+*.log
+*.pch        # Pré-compilation d'en-têtes
+*.pdb        # Base de données de programme (Visual Studio)
+*.ilk
+*.idb
+
+# Fichiers de dépendances C++
+*.d
+
+# Makefile et CMake auto-générés
+Makefile
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Répertoires spécifiques à CMake
+/build/
+*.cmake
+CMakeScripts/
+
+# Ignorer les fichiers spécifiques aux environnements de développement
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Fichiers et dossiers pour les IDE courants
+# Visual Studio Code
+.vscode/
+.vs/
+*.code-workspace
+
+# CLion/JetBrains
+.idea/
+*.iml
+
+# Visual Studio
+*.vcxproj*
+*.vcxproj.user
+*.sln
+*.suo
+*.vcxproj.filters
+*.ipch
+*.opensdf
+*.sdf
+*.cache
+*.VC.db
+*.VC.opendb
+
+# Autres fichiers temporaires
+*.tmp
+*.temp
+*.log
+
+# N'ignore PAS le dossier SDL2
+!SDL2/
